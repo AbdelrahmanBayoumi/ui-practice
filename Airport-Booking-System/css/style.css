@@ -1,0 +1,143 @@
+* {
+  /* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap');
+  font-family: 'Rubik', sans-serif; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --bg-color: #f5f7fe;
+  --primary: #00a8e8;
+  --primary-dark: #007ea7;
+  --secondary: #003459;
+  --secondary-dark: #00171f;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+main {
+  /* padding: 20px 40px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  background-color: #50abb5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div1 > h1 {
+  color: white;
+  /* font-size: 3rem; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.primary-btn {
+  margin-top: 50px;
+  display: inline-block;
+
+  background-color: #055988;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 32px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.primary-btn:hover {
+  background: var(--secondary-dark);
+  transform: scale(1.2);
+}
+
+.div2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding-bottom: 200px; */
+}
+.div2 > h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card {
+  color: black;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* max-height: 320px; */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+}
+.card:hover > img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--secondary-dark);
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.back-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+.back-btn {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: black;
+  font-weight: bold;
+}
+.submit-button {
+  display: inline-block;
+  background-color: var(--primary-dark);
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px 10px;
+}
